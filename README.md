@@ -9,8 +9,8 @@
   <a href="https://github.com/EricKrouss/chatgpt-desktop-linux">EricKrouss/chatgpt-desktop-linux</a>
 </p>
 
-This project builds on the original Codex Linux port created by **ilysenko**:
-[ilysenko/codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux).
+<strong> This project builds on the original Codex Linux port created by **ilysenko**:
+[ilysenko/codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux). </strong>
 
 Unofficial Linux build wrapper for the [OpenAI ChatGPT desktop app](https://openai.com/chatgpt/download/).
 The official ChatGPT app is available for macOS and Windows; this repository
