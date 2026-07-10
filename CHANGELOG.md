@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Fixed
 
+- Automatic updates no longer fail in `install.sh` because the packaged update
+  builder omitted `scripts/lib/upstream-dmg-intel.js`; native packages now stage
+  the complete patcher library tree and test the generated manifest.
+- The Chrome plugin auto-install patch now recognizes the namespace-style
+  production Chrome descriptor in the current Electron 42 main bundle, while
+  leaving Chrome development and internal channels unchanged.
 - Native packages now install the host Git client and CA certificates, and the
   launcher routes OpenAI's bundled Git through the host Git HTTPS helper. This
   prevents HTTPS fetches and pushes from failing when the portable runtime's
